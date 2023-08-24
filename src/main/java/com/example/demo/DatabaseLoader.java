@@ -25,22 +25,22 @@ public class DatabaseLoader implements CommandLineRunner {
 	@Override
 	public void run(String... strings) throws Exception {
 
-		this.repositoryI.save(new Producto("Primor", "12.00"));
-		this.repositoryI.save(new Producto("Gloria","4.20"));
-		this.repositoryI.save(new Producto("Costeño","5.00"));
+		this.repositoryI.save(new Producto("lapicero","5.00"));
+		this.repositoryI.save(new Producto("resaltador","4.00"));
+		this.repositoryI.save(new Producto("borrador","5.00"));
 
-		Producto cafetal = new Producto("Cafetal","8.50");
-		this.repositoryI.save(cafetal);
-		Producto manty = new Producto("Manty","5.00");
-		this.repositoryI.save(manty);
-		this.repositoryI.save(new Producto("Azucar","3.80"));
+		Producto tijera = new Producto("tijera","5.50");
+		this.repositoryI.save(tijera);
+		Producto cuaderno = new Producto("cuaderno","5.00");
+		this.repositoryI.save(cuaderno);
+		this.repositoryI.save(new Producto("colores","9.80"));
 
 
 		Venta total = new Venta("zzzzz");
 		this.repositoryB.save(total);
 
-		this.repositoryN.save(new DetalleVenta(total, cafetal));
-		this.repositoryN.save(new DetalleVenta(total, manty));
+		this.repositoryN.save(new DetalleVenta(total, tijera));
+		this.repositoryN.save(new DetalleVenta(total, cuaderno));
 		
 
 		
