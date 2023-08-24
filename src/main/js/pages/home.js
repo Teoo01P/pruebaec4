@@ -22,17 +22,17 @@ class HomePage extends React.Component {
 	render() {
 		return (
 			<>
-				<h1>Evaluacion Final</h1>
+				<h1>Mi Evaluacion Final - Teodora Pachacama </h1>
 
 				<div style={  {"width": "100%", "display": "flex"}   }>
 					<div style={{"width": "calc(100% / 3)"}}>
-						<Titulo entidad="Productos" emoji="🎸" />
+						<Titulo entidad="Mis Productos" emoji="🖊️📓" />
 						<ProductoList productos={this.state.productos} />
 						<Link to="/nuevo-producto">Nuevo Producto</Link>
 					</div>
 					
 					<div style={{"width": "calc(100% / 3)"}}>
-						<Titulo entidad="Ventas" emoji="👩🏼" />
+						<Titulo entidad="Ventas" emoji="🛒💰" />
 						<VentaList ventas={this.state.ventas} />
 						<Link to="/nueva-venta">Nueva Venta</Link>
 					</div>

@@ -41046,7 +41046,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Evaluacion Final"), /*#__PURE__*/React.createElement("div", {
+      return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Mi Evaluacion Final - Teodora Pachacama "), /*#__PURE__*/React.createElement("div", {
         style: {
           "width": "100%",
           "display": "flex"
@@ -41056,8 +41056,8 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
           "width": "calc(100% / 3)"
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
-        entidad: "Productos",
-        emoji: "\uD83C\uDFB8"
+        entidad: "Mis Productos",
+        emoji: "\uD83D\uDD8A\uFE0F\uD83D\uDCD3"
       }), /*#__PURE__*/React.createElement(ProductoList, {
         productos: this.state.productos
       }), /*#__PURE__*/React.createElement(Link, {
@@ -41068,7 +41068,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
         entidad: "Ventas",
-        emoji: "\uD83D\uDC69\uD83C\uDFFC"
+        emoji: "\uD83D\uDED2\uD83D\uDCB0"
       }), /*#__PURE__*/React.createElement(VentaList, {
         ventas: this.state.ventas
       }), /*#__PURE__*/React.createElement(Link, {
